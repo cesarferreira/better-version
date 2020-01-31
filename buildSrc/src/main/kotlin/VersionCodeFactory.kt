@@ -1,5 +1,3 @@
-package cesarferreira.betterversion.library
-
 class VersionCodeFactory {
 
     fun generate(sem: SemVersion): Int {
