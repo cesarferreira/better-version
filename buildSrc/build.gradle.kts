@@ -8,14 +8,14 @@ plugins {
 repositories {
     jcenter()
     maven(url = "http://jcenter.bintray.com/")
+    mavenCentral()
+
+}
+
+dependencies {
+    // implementation(mavenLocal())
 }
 
 kotlinDslPluginOptions {
     experimentalWarning.set(false)
-}
-
-
-dependencies {
-    testImplementation("junit:junit:4.12")
-    testImplementation("org.amshove.kluent:kluent:1.47")
 }
